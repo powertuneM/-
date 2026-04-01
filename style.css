@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* ヘッダー */
+header {
+  background: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+/* タブ */
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  background: #eee;
+}
+
+.tab.active {
+  background: #000;
+  color: #fff;
+}
+
+/* コンテンツ */
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* ヒーロー */
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: #111;
+  color: #fff;
+}
+
+/* セクション */
+section {
+  padding: 40px 20px;
+}
+
+/* サービス */
+.services li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 施工事例 */
+.work-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* 固定フッター */
+.fixed-contact {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.fixed-contact a {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fixed-contact a:nth-child(1) {
+  background: #333;
+}
+.fixed-contact a:nth-child(2) {
+  background: #555;
+}
+.fixed-contact a:nth-child(3) {
+  background: #06c755;
+}
